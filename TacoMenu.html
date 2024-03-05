@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+        <!--
+        Taco Cart Menu
+        Created By: AJ
+   
+        Filename: TacoMenu.html
+   
+        -->
+<html>
+    <head>
+        <title>Taco Menu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="TacoStyles.css">
+        <script src="MenuJavascript.js"></script>
+        <link rel="icon" href="./Images/TacoLogo.png">
+    </head>
+    <body>
+        <header>
+            <h1 class="pageHeading">
+                <img src="./Images/TacoLogo.png" class="headerLogo" alt="Bobberto Taco's Logo">
+                Bobberto's Tacos
+            </h1>
+            <nav id="webNavigation">
+                <table BORDER="0" id="navTable">
+                    <tr>
+                        <td class="notPage"><button onclick = "window.location.href='index.html';">Home →</button></td>
+                        <td class="currentPage"><button onclick = "window.location.href='TacoMenu.html';">Menu</button></td>
+                        <td class="notPage"><button onclick = "window.location.href='AboutUs.html';">About Us →</button></td>
+                        <td class="notPage"><button onclick = "window.location.href='Locations.html';">Locations →</button></td>
+                    </tr>
+                </table>
+            </nav>
+            <br>
+        </header>
+        <main>
+            <br>
+            <br>
+            <div class="row">
+                <div class="rowOneColumns">
+                  <img src="./Images/PretzelTaco.jpg" alt="Taco Item" class="tacoItem">
+                  <h1>Pretzel Shell Taco</h1>
+                  <button id="PretzelTAdd" class="buyButton">Add</button>
+                  <button id="PretzelTD" class="detailsButton">Details</button>
+                </div>
+                <div class="rowOneColumns">
+                  <img src="./Images/DessertBurrito.jpg" alt="Taco Item" class="tacoItem">
+                  <h1>Dessert Burrito</h1>
+                  <button id="DessertBAdd" class="buyButton">Add</button>
+                  <button id="DessertBD" class="detailsButton">Details</button>
+                </div>
+            </div>
+            <div id="Row1"></div>
+            <div class="row">
+                <div class="rowTwoColumns">
+                  <img src="./Images/BeefTaco.jpg" alt="Taco Item" class="tacoItem">
+                  <h2 class="menuName" class="buyButton">Beef Taco</h2>
+                  <button id="BeefTAdd" class="buyButton">Add</button>
+                  <button id="BeefTD" class="detailsButton">Details</button>
+                </div>
+                <div class="rowTwoColumns">
+                  <img src="./Images/HotTaco.jpg" alt="Taco Item" class="tacoItem">
+                  <h2 class="menuName">Ultra Spicy Taco</h2>
+                  <button id="HotTAdd" class="buyButton">Add</button>
+                  <button id="HotTD" class="detailsButton">Details</button>
+                </div>
+                <div class="rowTwoColumns">
+                  <img src="./Images/SupremeTaco.jpg" alt="Taco Item" class="tacoItem">
+                  <h2 class="menuName">Supreme Taco</h2>
+                  <button id="SupremeTAdd" class="buyButton">Add</button>
+                  <button id="SupremeTD" class="detailsButton">Details</button>
+                </div>
+            </div>
+            <div id="Row2"></div>
+            <div class="row">
+                <div class="rowTwoColumns">
+                  <img src="./Images/BeefBurrito.jpg" alt="Taco Item" class="tacoItem">
+                  <h2 class="menuName">Beef Burrito</h2>
+                  <button id="BeefBAdd" class="buyButton">Add</button>
+                  <button id="BeefBD" class="detailsButton">Details</button>
+                </div>
+                <div class="rowTwoColumns">
+                  <img src="./Images/BreakfastBurrito.jpg" alt="Taco Item" class="tacoItem">
+                  <h2 class="menuName">Breakfast Burrito</h2>
+                  <button id="BreakfastBAdd" class="buyButton">Add</button>
+                  <button id="BreakfastBD" class="detailsButton">Details</button>
+                </div>
+                <div class="rowTwoColumns">
+                  <img src="./Images/SupremeBurrito.jpg" alt="Taco Item" class="tacoItem">
+                  <h2 class="menuName">Supreme Burrito</h2>
+                  <button id="SupremeBAdd" class="buyButton">Add</button>
+                  <button id="SupremeBD" class="detailsButton">Details</button>
+                </div>
+            </div>
+            <div id="Row3"></div>
+            <br>
+            <h1 style="text-align: center;"><u>Order</u></h1>
+            <br>
+            <table id ="customerOrder">
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Remove</th>
+                </tr>
+            </table>
+            <div id ="customerOrders"></div>
+            <br>
+            <div id="customerTotal">Total will be calculated here after adding your items.</div>
+            <br>
+            <br>
+            <br>
+            <br>
+        </main>
+        <footer>
+            <br>
+            <br>
+            <p>| &#169; 2024 Bobberto Industries All Rights Reserved |</p>
+            <p><a href="Sitemap.html">Sitemap</a></p>
+            <br>
+            <br>
+        </footer>
+    </body>
+</html>

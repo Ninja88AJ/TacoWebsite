@@ -1,0 +1,229 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Feb 4, 2024, 4:48:20 PM
+    Created By: AJ
+*/
+
+
+/* Taco Menu Styles */
+.row {
+  display: flex;
+}
+
+.rowOneColumns {
+  flex: 30%;
+  padding-left: 5px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  text-align: center;
+}
+
+.rowTwoColumns {
+  flex: 33.33%;
+  padding-left: 5px;
+  padding-bottom: 20px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+button.buyButton {
+    border-radius: 5px;
+    background-color: orange;
+    border-color: rgb(92, 53, 6);
+    color: black;
+    width: 80px;
+}
+
+button.buyButton:hover {
+    border-radius: 5px;
+    background-color: rgb(255, 193, 79);
+    border-color: rgb(92, 53, 6);
+    color: black;
+    width: 80px;
+}
+button.buyButton:active {
+    border-radius: 5px;
+    background-color: rgb(179, 128, 36);
+    border-color: rgb(92, 53, 6);
+    color: black;
+    width: 80px;
+}
+
+button.detailsButton {
+    border-radius: 5px;
+    border-color: rgb(92, 53, 6);
+    background-color: lightgrey;
+    color: black;
+    width: 80px;
+}
+
+button.detailsButton:hover {
+    border-radius: 5px;
+    border-color: rgb(92, 53, 6);
+    background-color: rgb(227, 227, 227);
+    width: 80px;
+}
+
+button.detailsButton:active {
+    border-radius: 5px;
+    border-color: rgb(92, 53, 6);
+    background-color: rgb(148, 148, 148);
+    width: 80px;
+}
+
+img.tacoItem {
+    width: 75%;
+    border: 1px solid brown;
+    border-radius: 20%;
+}
+
+h2.menuName {
+    padding: 0px 0px 0px 0px;
+    margin: 0;
+}
+
+div#customerTotal {
+    margin-left: 10%;
+}
+
+table#customerOrder {
+    width: 80%;
+    border: 4px solid black;
+    background-color: rgb(245, 245, 245);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#customerOrder button {
+    color: red;
+    background-color: white;
+}
+
+table#customerOrder tr td {
+   border-bottom: 1px solid gray;
+}
+
+table#customerOrder th:nth-child(1), table#customerOrder td:nth-child(1) {
+    text-align: left;
+    width: 40%;
+}
+table#customerOrder th:nth-child(2), table#customerOrder td:nth-child(2) {
+    text-align: right;
+    width: 20%;
+}
+table#customerOrder th:nth-child(3), table#customerOrder td:nth-child(3) {
+    text-align: center;
+    width: 20%;
+}
+/* Sitemap Styles */
+h2#sitemapHome a {
+    margin-left: 5%;
+    text-decoration: underline;
+    color: black;
+}
+
+li.sitemapSubsite, li.sitemapSubsite a {
+    text-decoration: underline;
+    color: gray;
+}
+li.sitemapSubsite {
+    margin-left: 5%;
+}
+/* About Us Styles */
+p.informativeParagraph {
+    border: 4px ridge brown;
+    background-color: lightgoldenrodyellow;
+    color: firebrick;
+    width: 85%;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+p.informativeParagraph b {
+    text-decoration: underline;
+}
+
+
+/* Header Styles */
+header {
+    background-color: rgb(163, 252, 134);
+}
+main {
+    background-color: rgb(195, 252, 177);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h1.pageHeading {
+    display: flex;
+    align-items: center;
+    font-family: "Brush Script MT", sans-serif;
+    font-size: 50px;
+}
+
+img.headerLogo {
+    width: 100px;
+}
+/* Location Styles */
+
+p#locationGoogle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Nav Styles */
+#navTable {
+    width: 100%;
+    table-layout: fixed;
+}
+#navTable td {
+    width: 25%;
+    text-align: center;
+}
+
+#navTable button {
+    height: 30px;
+    font-weight: bold;
+    font-size: 14px;
+    width: 90%;
+    border-radius: 20px;
+    border-color: rgb(82,49,7);
+    background: rgb(219, 20, 2);
+    color: rgb(237,187,21);
+    border-width: 4px;
+}
+
+table#navTable td.currentPage button {
+    text-decoration: underline;
+    background: rgb(237,187,21);
+    color: rgb(219, 20, 2);
+}
+
+#navTable td.notPage button:hover {
+    background: rgb(227, 55, 39);
+}
+
+/* Footer Styles */
+footer {
+    background-color: rgb(228, 255, 209);
+    text-align: center;
+}
+footer p a {
+    text-decoration: none;
+    color: gray;
+}
